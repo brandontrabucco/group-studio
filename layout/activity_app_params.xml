@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"></include>
+
+    <TextView
+        style="@style/dialog_title_text"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_type"
+        android:layout_margin="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/user_type_group"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <RadioButton
+            style="@style/radio_style"
+            android:id="@+id/user_type_basic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_type_basic"/>
+
+        <RadioButton
+            style="@style/radio_style"
+            android:id="@+id/user_type_expert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_type_expert"/>
+    </RadioGroup>
+
+    <TextView
+        style="@style/dialog_title_text"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App Theme"
+        android:layout_margin="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/app_theme_group"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <RadioButton
+            style="@style/radio_style"
+            android:id="@+id/app_theme_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dark_theme"/>
+
+        <RadioButton
+            style="@style/radio_style"
+            android:id="@+id/app_theme_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/light_theme"/>
+
+        <RadioButton
+            style="@style/radio_style"
+            android:id="@+id/app_theme_skye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/skye_theme"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:hint="@string/name_hint">
+
+        <Button
+            style="@style/default_button"
+            android:id="@+id/confirm_new_group"
+            android:layout_margin="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/confirm_text"/>
+
+        <Button
+            style="@style/default_button"
+            android:id="@+id/cancel_new_group"
+            android:layout_margin="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel_text"/>
+
+        </LinearLayout>
+
+</LinearLayout>

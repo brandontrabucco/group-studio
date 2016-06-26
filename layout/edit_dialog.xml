@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/DialogTitleStyle">
+
+        <TextView
+            style="@style/dialog_title_text"
+            android:id="@+id/dialog_title_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Edit Title" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        style="@style/DialogSectionStyle">
+
+        <EditText
+            style="@style/dialog_edit_text"
+            android:id="@+id/dialog_edit_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Some Text"
+            android:textColor="?attr/gsColorSecondary"
+            android:textColorHint="?attr/gsColorSecondaryFade"/>
+
+    </LinearLayout>
+
+</LinearLayout>

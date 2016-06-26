@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".activities.MainActivity">
+    <item
+        android:id="@+id/action_back"
+        android:icon="?attr/backIconDrawable"
+        android:title="@string/action_back"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_edit"
+        android:title="@string/action_edit"
+        android:orderInCategory="100"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/action_delete"
+        android:title="@string/action_delete"
+        android:orderInCategory="110"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/action_stats"
+        android:title="@string/action_stats"
+        android:orderInCategory="110"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/action_rank"
+        android:title="@string/action_rank"
+        android:orderInCategory="110"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/action_json"
+        android:title="@string/action_json"
+        android:orderInCategory="110"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/action_merge_with_cloud"
+        android:title="@string/action_merge_with_cloud"
+        android:orderInCategory="120"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/action_pull_from_cloud"
+        android:title="@string/action_pull_from_cloud"
+        android:orderInCategory="120"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/action_push_to_cloud"
+        android:title="@string/action_push_to_cloud"
+        android:orderInCategory="120"
+        app:showAsAction="collapseActionView" />
+</menu>

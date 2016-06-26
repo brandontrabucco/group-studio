@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_color_medium">#ffffffff</color>
+    <color name="theme_color_light">#ff3f92d6</color>
+    <color name="theme_color_dark">#333333</color>
+
+    <color name="gs_primary">#17191a</color>
+    <color name="gs_primary_dark">#000000</color>
+    <color name="gs_primary_light">#2e3133</color>
+
+    <color name="gs_midtone">#5c6266</color>
+    <color name="gs_midtone_dark">#45494d</color>
+    <color name="gs_midtone_light">#a0abb1</color>
+
+    <color name="gs_light">#ffffff</color>
+    <color name="gs_secondary">#e7e7e7</color>
+    <color name="gs_secondary_dark">#cecece</color>
+    <color name="gs_secondary_light">#ffffff</color>
+
+    <color name="gs_accent">#33b9ff</color>
+    <color name="gs_accent_dark">#0c7eb9</color>
+    <color name="gs_accent_light">#6fcdff</color>
+
+    <!-- Skye Theme Colors -->
+
+    <color name="skye_primary">#1de9b6</color>
+    <color name="skye_primary_light">#63ffd7</color>
+    <color name="skye_primary_dark">#00a77d</color>
+
+    <color name="skye_secondary">#1565c0</color>
+    <color name="skye_secondary_light">#2979ff</color>
+    <color name="skye_secondary_dark">#203b76</color>
+</resources>

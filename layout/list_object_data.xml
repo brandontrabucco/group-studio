@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/list_item_layout"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/list_item_container">
+
+        <TextView
+            style="@style/list_item_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Default Set"
+            android:id="@+id/object_name"
+            android:singleLine="true"
+
+            android:scrollHorizontally="true"/>
+
+        <TextView
+            style="@style/list_item_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 Members"
+            android:id="@+id/object_length"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/list_item_desc"
+            android:id="@+id/object_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is the default note about this object."
+            android:textSize="14dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
