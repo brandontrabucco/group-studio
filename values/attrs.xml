@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="backIconDrawable" format="reference"></attr>
+    <attr name="plusIconDrawable" format="reference"></attr>
+    <attr name="refreshIconDrawable" format="reference"></attr>
+
+    <attr name="gsColorPrimary" format="reference|color"></attr>
+    <attr name="gsColorPrimaryLight" format="reference|color"></attr>
+    <attr name="gsColorPrimaryDark" format="reference|color"></attr>
+    <attr name="gsColorPrimaryFade" format="reference|color"></attr>
+
+    <attr name="gsColorSecondary" format="reference|color"></attr>
+    <attr name="gsColorSecondaryLight" format="reference|color"></attr>
+    <attr name="gsColorSecondaryDark" format="reference|color"></attr>
+    <attr name="gsColorSecondaryFade" format="reference|color"></attr>
+
+    <attr name="gsColorMidtone" format="reference|color"></attr>
+    <attr name="gsColorMidtoneLight" format="reference|color"></attr>
+    <attr name="gsColorMidtoneDark" format="reference|color"></attr>
+
+    <attr name="gsColorAccent" format="reference|color"></attr>
+    <attr name="gsColorAccentLight" format="reference|color"></attr>
+    <attr name="gsColorAccentDark" format="reference|color"></attr>
+
+    <attr name="gsColorLight" format="reference|color"></attr>
+    <attr name="buttonSelector" format="reference|color"></attr>
+</resources>

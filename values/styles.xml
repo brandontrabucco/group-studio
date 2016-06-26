@@ -1,0 +1,349 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:popupMenuStyle">@style/PopupMenuStyle</item>
+
+        <item tools:targetApi="21" name="android:colorPrimary">@color/gs_primary</item>
+        <item tools:targetApi="21" name="android:colorPrimaryDark">@color/gs_accent</item>
+
+        <item tools:targetApi="21" name="android:colorAccent">@color/gs_accent</item>
+        <item tools:targetApi="21" name="android:colorControlActivated">@color/gs_accent</item>
+        <item tools:targetApi="21" name="android:colorControlHighlight">@color/gs_accent</item>
+        <item tools:targetApi="21" name="android:colorControlNormal">@color/gs_secondary</item>
+        
+        <item name="gsColorPrimary">@color/gs_primary</item>
+        <item name="gsColorPrimaryLight">@color/gs_primary_light</item>
+        <item name="gsColorPrimaryDark">@color/gs_primary_dark</item>
+        <item name="gsColorPrimaryFade">@color/gs_midtone_dark</item>
+
+        <item name="gsColorSecondary">@color/gs_secondary</item>
+        <item name="gsColorSecondaryLight">@color/gs_secondary_light</item>
+        <item name="gsColorSecondaryDark">@color/gs_secondary_dark</item>
+        <item name="gsColorSecondaryFade">@color/gs_midtone_light</item>
+
+        <item name="gsColorMidtone">@color/gs_midtone</item>
+        <item name="gsColorMidtoneLight">@color/gs_midtone_light</item>
+        <item name="gsColorMidtoneDark">@color/gs_midtone_dark</item>
+
+        <item name="gsColorAccent">@color/gs_accent</item>
+        <item name="gsColorAccentLight">@color/gs_accent_light</item>
+        <item name="gsColorAccentDark">@color/gs_accent_dark</item>
+
+        <item name="gsColorLight">@color/gs_light</item>
+
+        <item name="buttonSelector">@drawable/background_selector</item>
+
+        <item name="backIconDrawable">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="plusIconDrawable">@drawable/ic_add_white_48dp</item>
+        <item name="refreshIconDrawable">@drawable/ic_action_refresh</item>
+
+        <item name="android:textColorPrimary">@color/gs_secondary</item>
+        <item name="android:textColorPrimaryInverse">@color/gs_primary</item>
+
+        <item name="android:textAppearanceLargePopupMenu">@style/PopupMenuTextLarge</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/PopupMenuTextSmall</item>
+
+        <item name="android:actionMenuTextColor">@color/gs_secondary</item>
+        <item name="android:windowBackground">@color/gs_primary_light</item>
+        <item tools:targetApi="21" name="android:navigationBarColor">@color/gs_primary_dark</item>
+
+        <item name="android:titleTextStyle">@style/TitleTextStyle</item>
+        <item name="titleTextStyle">@style/TitleTextStyle</item>
+
+        <item name="android:textColor">@color/gs_secondary</item>
+
+        <item name="android:actionOverflowButtonStyle">@style/OverflowButton</item>
+        <item name="actionOverflowButtonStyle">@style/OverflowButton</item>
+
+        <item name="android:dropDownListViewStyle">@style/PopupMenuListView</item>
+        <item name="dropDownListViewStyle">@style/PopupMenuListView</item>
+
+        <item name="actionBarDivider">@null</item>
+
+        <item name="android:alertDialogTheme">@style/AlertDialogStyle</item>
+    </style>
+
+    <style name="AppTheme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:popupMenuStyle">@style/PopupMenuStyle</item>
+
+        <item tools:targetApi="21" name="android:colorPrimary">@color/gs_secondary</item>
+        <item tools:targetApi="21" name="android:colorPrimaryDark">@color/gs_accent_dark</item>
+
+        <item tools:targetApi="21" name="android:colorAccent">@color/gs_accent</item>
+        <item tools:targetApi="21" name="android:colorControlActivated">@color/gs_accent</item>
+        <item tools:targetApi="21" name="android:colorControlHighlight">@color/gs_accent</item>
+        <item tools:targetApi="21" name="android:colorControlNormal">@color/gs_primary_light</item>
+
+        <item name="gsColorPrimary">@color/gs_secondary</item>
+        <item name="gsColorPrimaryLight">@color/gs_secondary_light</item>
+        <item name="gsColorPrimaryDark">@color/gs_secondary_dark</item>
+        <item name="gsColorPrimaryFade">@color/gs_midtone_light</item>
+
+        <item name="gsColorSecondary">@color/gs_primary</item>
+        <item name="gsColorSecondaryLight">@color/gs_primary_light</item>
+        <item name="gsColorSecondaryDark">@color/gs_primary_dark</item>
+        <item name="gsColorSecondaryFade">@color/gs_midtone</item>
+
+        <item name="gsColorMidtone">@color/gs_midtone</item>
+        <item name="gsColorMidtoneLight">@color/gs_midtone_dark</item>
+        <item name="gsColorMidtoneDark">@color/gs_midtone_light</item>
+
+        <item name="gsColorAccent">@color/gs_accent</item>
+        <item name="gsColorAccentLight">@color/gs_accent_light</item>
+        <item name="gsColorAccentDark">@color/gs_accent_dark</item>
+
+        <item name="gsColorLight">@color/gs_primary</item>
+
+        <item name="buttonSelector">@drawable/background_selector</item>
+
+        <item name="backIconDrawable">@drawable/ic_arrow_back_black_24dp</item>
+        <item name="plusIconDrawable">@drawable/ic_add_black_24dp</item>
+        <item name="refreshIconDrawable">@drawable/ic_refresh_black_24dp</item>
+
+        <item name="android:textColorPrimary">@color/gs_primary</item>
+        <item name="android:textColorPrimaryInverse">@color/gs_secondary</item>
+
+        <item name="android:textAppearanceLargePopupMenu">@style/PopupMenuTextLarge</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/PopupMenuTextSmall</item>
+
+        <item name="android:actionMenuTextColor">@color/gs_primary</item>
+        <item name="android:windowBackground">@color/gs_secondary_light</item>
+        <item tools:targetApi="21" name="android:navigationBarColor">@color/gs_secondary_dark</item>
+
+        <item name="android:titleTextStyle">@style/TitleTextStyle</item>
+        <item name="titleTextStyle">@style/TitleTextStyle</item>
+
+        <item name="android:textColor">@color/gs_primary</item>
+
+        <item name="android:actionOverflowButtonStyle">@style/OverflowButton</item>
+        <item name="actionOverflowButtonStyle">@style/OverflowButton</item>
+
+        <item name="android:dropDownListViewStyle">@style/PopupMenuListView</item>
+        <item name="dropDownListViewStyle">@style/PopupMenuListView</item>
+
+        <item name="actionBarDivider">@null</item>
+
+        <item name="android:alertDialogTheme">@style/AlertDialogStyle</item>
+    </style>
+
+    <style name="AppTheme.Skye" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:popupMenuStyle">@style/PopupMenuStyle</item>
+
+        <item tools:targetApi="21" name="android:colorPrimary">@color/skye_primary</item>
+        <item tools:targetApi="21" name="android:colorPrimaryDark">@color/skye_primary_dark</item>
+
+        <item tools:targetApi="21" name="android:colorAccent">@color/skye_primary</item>
+        <item tools:targetApi="21" name="android:colorControlActivated">@color/skye_primary</item>
+        <item tools:targetApi="21" name="android:colorControlHighlight">@color/skye_primary</item>
+        <item tools:targetApi="21" name="android:colorControlNormal">@color/gs_primary</item>
+
+        <item name="gsColorPrimary">@color/skye_primary</item>
+        <item name="gsColorPrimaryLight">@color/gs_secondary_light</item>
+        <item name="gsColorPrimaryDark">@color/skye_primary_dark</item>
+        <item name="gsColorPrimaryFade">@color/gs_midtone_light</item>
+
+        <item name="gsColorSecondary">@color/gs_primary</item>
+        <item name="gsColorSecondaryLight">@color/gs_primary_light</item>
+        <item name="gsColorSecondaryDark">@color/gs_primary_dark</item>
+        <item name="gsColorSecondaryFade">@color/gs_midtone</item>
+
+        <item name="gsColorMidtone">@color/gs_midtone</item>
+        <item name="gsColorMidtoneLight">@color/gs_midtone_dark</item>
+        <item name="gsColorMidtoneDark">@color/gs_midtone_light</item>
+
+        <item name="gsColorAccent">@color/skye_primary</item>
+        <item name="gsColorAccentLight">@color/skye_primary_light</item>
+        <item name="gsColorAccentDark">@color/skye_primary_dark</item>
+
+        <item name="gsColorLight">@color/gs_primary</item>
+
+        <item name="buttonSelector">@drawable/background_selector_skye</item>
+
+        <item name="backIconDrawable">@drawable/ic_arrow_back_black_24dp</item>
+        <item name="plusIconDrawable">@drawable/ic_add_black_24dp</item>
+        <item name="refreshIconDrawable">@drawable/ic_refresh_black_24dp</item>
+
+        <item name="android:textColorPrimary">@color/gs_primary</item>
+        <item name="android:textColorPrimaryInverse">@color/gs_secondary</item>
+
+        <item name="android:textAppearanceLargePopupMenu">@style/PopupMenuTextLarge</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/PopupMenuTextSmall</item>
+
+        <item name="android:actionMenuTextColor">@color/gs_primary</item>
+        <item name="android:windowBackground">@color/gs_secondary_light</item>
+        <item tools:targetApi="21" name="android:navigationBarColor">@color/gs_primary_dark</item>
+
+        <item name="android:titleTextStyle">@style/TitleTextStyle</item>
+        <item name="titleTextStyle">@style/TitleTextStyle</item>
+
+        <item name="android:textColor">@color/gs_primary</item>
+
+        <item name="android:actionOverflowButtonStyle">@style/OverflowButton</item>
+        <item name="actionOverflowButtonStyle">@style/OverflowButton</item>
+
+        <item name="android:dropDownListViewStyle">@style/PopupMenuListView</item>
+        <item name="dropDownListViewStyle">@style/PopupMenuListView</item>
+
+        <item name="actionBarDivider">@null</item>
+
+        <item name="android:alertDialogTheme">@style/AlertDialogStyle</item>
+    </style>
+
+    <style name="OverflowButton" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+
+    </style>
+
+    <style name="AlertDialogStyle" parent="@style/Theme.AppCompat.Dialog">
+        <!-- Used for the background
+        <item name="android:background">@color/gs_primary_light</item> -->
+        <item name="android:background">?attr/gsColorPrimaryLight</item>
+    </style>
+
+    <style name="DialogSectionStyle">
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:paddingRight">40dp</item>
+    </style>
+
+    <style name="DialogTitleStyle">
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:paddingRight">40dp</item>
+        <item name="android:background">?attr/gsColorPrimary</item>
+    </style>
+
+    <style name="PopupMenuListView" parent="@style/Widget.AppCompat.ListView.DropDown">
+        <item name="android:divider">?attr/gsColorMidtoneDark</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:background">?attr/gsColorPrimaryLight</item>
+    </style>
+
+    <style name="TitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">?attr/gsColorSecondary</item>
+    </style>
+
+    <style name="ActionBarStyle" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">?attr/gsColorPrimary</item>
+        <item name="android:textColor">?attr/gsColorSecondary</item>
+        <item tools:targetApi="21" name="android:elevation">0dp</item>
+        <item name="elevation">0dp</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="PopupMenuStyle" parent="@style/Widget.AppCompat.ListPopupWindow">
+        <item name="android:popupBackground">?attr/gsColorPrimaryLight</item>
+        <item name="android:textColor">?attr/gsColorSecondary</item>
+    </style>
+
+    <style name="PopupMenuTextSmall" parent="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small">
+        <item name="android:textColor">?attr/gsColorSecondary</item>
+    </style>
+
+    <style name="PopupMenuTextLarge" parent="@style/TextAppearance.AppCompat.Widget.PopupMenu.Large">
+        <item name="android:textColor">?attr/gsColorSecondary</item>
+    </style>
+
+    <style name="FloatingActionButton" parent="@style/Widget.AppCompat.ActionButton">
+        <item name="android:background">?attr/buttonSelector</item>
+        <item tools:targetApi="21" name="android:elevation">@dimen/fab_elevation</item>
+        <item tools:targetApi="21" name="android:stateListAnimator">@drawable/button_selector</item>
+        <item name="android:layout_width">@dimen/fab_size</item>
+        <item name="android:layout_height">@dimen/fab_size</item>
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+    </style>
+
+    <style name="list_item_text">
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">?attr/gsColorSecondary</item>
+    </style>
+
+    <style name="list_item_right">
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">?attr/gsColorMidtoneLight</item>
+    </style>
+
+    <style name="list_item_container">
+    </style>
+
+    <style name="list_item_desc">
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:textColor">?attr/gsColorMidtoneLight</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="list_item_layout">
+        <item name="android:background">?attr/gsColorPrimaryLight</item>
+    </style>
+
+    <style name="default_button">
+        <item name="android:background">?attr/buttonSelector</item>
+        <item name="android:textColor">?attr/gsColorLight</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="default_text">
+        <item name="android:background">?attr/gsColorAccent</item>
+        <item name="android:textColor">?attr/gsColorSecondary</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="text_input">
+    </style>
+
+    <style name="type_spinner" parent="@style/Widget.AppCompat.Spinner">
+        <item name="android:background">?attr/gsColorAccent</item>
+        <item name="android:drawableRight">@drawable/ic_action_options</item>
+    </style>
+
+    <style name="spinner_item">
+        <item name="android:padding">18dp</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">?attr/gsColorSecondary</item>
+    </style>
+
+    <style name="delete_text">
+        <item name="android:padding">35dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">35dp</item>
+        <item name="android:textColor">?attr/gsColorSecondary</item>
+    </style>
+
+    <style name="dialog_title_text">
+        <item name="android:textColor">?attr/gsColorSecondary</item>
+        <item name="android:textSize">25dp</item>
+    </style>
+
+    <style name="dialog_edit_text">
+        <item name="android:textColor">?attr/gsColorSecondary</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="radio_style">
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+</resources>

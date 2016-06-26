@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/DialogTitleStyle">
+
+        <TextView
+            style="@style/dialog_title_text"
+            android:id="@+id/dialog_title_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Read As" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:gravity="center"
+        style="@style/DialogSectionStyle">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_group">
+
+            <RadioButton
+                style="@style/radio_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text"
+                android:id="@+id/read_text"/>
+
+            <RadioButton
+                style="@style/radio_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number"
+                android:id="@+id/read_number"/>
+
+            <RadioButton
+                style="@style/radio_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Numeric List"
+                android:id="@+id/read_list"/>
+
+            <RadioButton
+                style="@style/radio_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Boolean"
+                android:id="@+id/read_boolean"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>
