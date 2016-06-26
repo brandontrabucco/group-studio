@@ -1,2 +1,2 @@
 # group_studio
-This repository is home to the source behind Group Studio, an data management and analysis tool built for android
+This repository is home to the source behind Group Studio, an data management and analysis tool built for android 5.0.1 plus. This software is currently released with a few different versions. As with the license, these versions are not error free. It is within the ability of whomever feels inclined to do so to make changes to this source, and tailor it to their needs. Have fun coding!
